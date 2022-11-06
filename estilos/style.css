@@ -38,7 +38,7 @@ section#login{
     background-color: white; 
     border-radius: 20px;  
     text-align: center;
-    height: 500px;
+    height: 515px;
     width: 250px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 
@@ -48,7 +48,7 @@ section#login{
 
 section > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/pexels-miguel-á-padriñán-2882566.jpg) no-repeat;
+    background: #ff6a6a url(../imagens/pexels-miguel-á-padriñán-2882566.jpg) no-repeat;
 
     background-position: center center; /* centralizar imagem */
     background-size: cover;
@@ -67,4 +67,60 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+form > div.campo{
+    background-color: #fd5555;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #fc8c8c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #d87979;
+    border: 1px solid black;
+    color: white;
+}
+
+form > a.botao {
+    /*esse é só um link custumissado*/
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ff9595;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 7px;
+    margin-top: 5px;
+}
+
+form > a.botao > span {
+    font-size: 0.8em;
+}
+
+form > a.botao:hover{
+    background-color: #e27e7e;
+    color: white;
 }
